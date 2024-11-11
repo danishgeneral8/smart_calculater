@@ -11,11 +11,11 @@ def extract_from_text(text):
 # this function lcm two numbers 
 def lcm(a, b):
     L = a if a > b else b
-    while L <= a * b:
+    while L <= a * b;
         if L % a == 0 and L % b == 0:
             return L
         L += 1
-# this function hcf two numbers
+# this function hcf two 
 def hcf(a, b):
     H = a if a < b else b
     while H >= 1:
