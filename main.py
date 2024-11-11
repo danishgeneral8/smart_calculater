@@ -15,7 +15,7 @@ def lcm(a, b):
         if L % a == 0 and L % b == 0:
             return L
         L += 1
-# this function hcf two 
+# this function hcf two numbers
 def hcf(a, b):
     H = a if a < b else b
     while H >= 1:
